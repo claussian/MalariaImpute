@@ -20,7 +20,7 @@ scan <- scan_hh(haps.ph)
 write.table(scan, 'iES_chrZZ_ph_bglXX.txt', sep='\\t',col.names=T, row.names=F, quote=F)"
 
 
-script.ph <- "library(rehh)
+script.pt <- "library(rehh)
 
 haps.pt <- data2haplohh('chrZZ_pt_bglXX.rehh','markerZZ_rehh.txt',chr.name=ZZ)
 scan <- scan_hh(haps.pt)
